@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #99ff99;
+    flex-direction: column;
+    width: 200px; /* Adjust this value as needed */
+}
+
+nav a {
+    background-color: #ccffff;
+    color: #000000;
+    padding: 0.25em 0.5em;
+    margin: 10px;
+    transition: all 0.7s;
+}
+
+nav a:hover {
+    background-color: #ffff00;
+}
+
+header {
+    background-color: #ffff00;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    background-color: #ccffff;
+    padding: 2em;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
